@@ -1,0 +1,15 @@
+{
+  "name": "modularaccount_gettingstarted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alchemy/aa-alchemy": "^3.1.1",
+    "@alchemy/aa-core": "^3.1.1"
+  }
+}
