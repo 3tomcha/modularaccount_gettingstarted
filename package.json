@@ -1,15 +1,41 @@
 {
-  "name": "modularaccount_gettingstarted",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
-  "author": "",
-  "license": "ISC",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
   "dependencies": {
+    "@alchemy/aa-accounts": "^3.1.1",
     "@alchemy/aa-alchemy": "^3.1.1",
-    "@alchemy/aa-core": "^3.1.1"
+    "@alchemy/aa-core": "^3.1.1",
+    "@alchemy/aa-signers": "^3.1.1",
+    "dotenv": "^16.4.5",
+    "viem": "^2.7.13"
   }
 }
